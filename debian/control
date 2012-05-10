@@ -10,7 +10,7 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Recommends: wpasupplicant, bluez, ofono, pacrunner
 Conflicts: network-manager
 Description: ConnMan daemon
- This package contains the ConnMan daemon
+ This package contains the Connection Manager (ConnMan) daemon
  .
  ConnMan, or Connection Manager, is a system level daemon that manages
  IPv4 and IPv6 network connections and the associated network devices.
@@ -20,6 +20,7 @@ Description: ConnMan daemon
   * WiFi, when wpa_supplicant is installed
   * Cellular, when oFono is installed
   * Bluetooth, when Bluez is installed
+ .
  ConnMan implements DNS resolving and caching, DHCP clients for both IPv4 and
  IPv6, link-local IPv4 address handling and tethering (IP connection sharing)
  to clients via USB, ethernet, WiFi, cellular and Bluetooth.
