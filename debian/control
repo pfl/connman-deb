@@ -10,7 +10,7 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Recommends: wpasupplicant, bluez, ofono, pacrunner
 Conflicts: network-manager
 Description: ConnMan daemon
- This package contains the Connection Manager (ConnMan) daemon
+ This unofficial package contains the Connection Manager (ConnMan) daemon
  .
  ConnMan, or Connection Manager, is a system level daemon that manages
  IPv4 and IPv6 network connections and the associated network devices.
@@ -29,19 +29,19 @@ Package: connman-tools
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, connman (>=0.80)
 Description: ConnMan command line tools
- This package contains ConnMan command line tool and test scripts
+ This unofficial package contains ConnMan command line tool and test scripts
 
 Package: connman-dev
 Section: devel
 Architecture: any
 Depends: ${misc:Depends}, libglib2.0-dev(>=2.28), libdbus-1-dev(>=1.4)
 Description: ConnMan development files
- This package contains header files and pkgconfig support for developing
- ConnMan plugins.
+ This unofficial package contains header files and pkgconfig support for
+ developing ConnMan plugins.
 
 Package: connman-doc
 Section: doc
 Architecture: any
 Depends:
 Description: ConnMan documentation
- Documentation of ConnMan APIs
+ This unofficial package contains documentation of ConnMan APIs
