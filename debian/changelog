@@ -1,3 +1,9 @@
+connman (1.9-0.1) UNRELEASED; urgency=low
+
+  * Packaging of new upstream version
+
+ -- Patrik Flykt <patrik.flykt@linux.intel.com>  Mon, 22 Oct 2012 14:01:00 +0300
+
 connman (1.0-1) UNRELEASED; urgency=low
 
   * Update to version 1.0
