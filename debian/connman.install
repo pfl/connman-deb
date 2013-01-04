@@ -1,2 +1,2 @@
-etc/
-usr/sbin/
+etc/dbus-1/system.d/connman.conf
+usr/sbin/connmand

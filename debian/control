@@ -2,7 +2,7 @@ Source: connman
 Maintainer: Patrik Flykt <patrik.flykt@linux.intel.com>
 Section: net
 Priority: optional
-Build-Depends: debhelper(>=8), wpasupplicant(>=0.7), libglib2.0-dev(>=2.28),libdbus-1-dev(>=1.4), libgnutls-dev(>=2.8), iptables-dev(>=1.4.8), libreadline-gplv2-dev
+Build-Depends: debhelper(>=8), wpasupplicant(>=0.7), libglib2.0-dev(>=2.28),libdbus-1-dev(>=1.4), libgnutls-dev(>=2.8), iptables-dev(>=1.4.8), libreadline-gplv2-dev, openconnect, openvpn, vpnc
 
 Package: connman
 Architecture: any
@@ -24,6 +24,17 @@ Description: ConnMan daemon
  ConnMan implements DNS resolving and caching, DHCP clients for both IPv4 and
  IPv6, link-local IPv4 address handling and tethering (IP connection sharing)
  to clients via USB, ethernet, WiFi, cellular and Bluetooth.
+
+Package: connman-vpn
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: connman (=${Source-Version})
+Description: ConnMan VPN daemon
+ This unofficial package contains the ConnMan VPN daemon
+ .
+ ConnMan VPN daemon manages VPNs on behalf of connmand and start and stops
+ various VPN client applications. The VPN daemon can also be run standalone
+ without connmand.
 
 Package: connman-tools
 Architecture: any

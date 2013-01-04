@@ -1,3 +1,11 @@
+connman (1.10-0.1) UNRELEASED; urgency=low
+
+  * Packaging of new upstream version
+  * Adding package for ConnMan VPN daemon
+  * Configure and build dependencies for openconnect, openvpn, vpnc
+
+ -- Patrik Flykt <patrik.flykt@linux.intel.com>  Fri, 04 Jan 2013 13:41:44 +0200
+
 connman (1.9-0.1) UNRELEASED; urgency=low
 
   * Packaging of new upstream version

@@ -2,6 +2,14 @@
 %:
 	dh $@
 
+override_dh_auto_configure:
+	./configure \
+		--prefix=/usr \
+		--enable-debug \
+		--enable-openconnect=builtin \
+		--enable-openvpn=builtin \
+		--enable-vpnc=builtin
+
 override_dh_installinit:
 	cp -a scripts/connman debian/connman.init
 	dh_installinit
