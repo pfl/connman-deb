@@ -1,3 +1,9 @@
+connman (1.11-0.1) UNRELEASED; urgency=low
+
+  * Version number updated to 1.11
+
+ -- Patrik Flykt <patrik.flykt@linux.intel.com>  Fri, 01 Feb 2013 15:12:00 +0200
+
 connman (1.10-0.2) UNRELEASED; urgency=low
 
   * Fix missing 'localstatedir' from rules file
