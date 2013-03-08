@@ -56,3 +56,11 @@ Architecture: any
 Depends:
 Description: ConnMan documentation
  This unofficial package contains documentation of ConnMan APIs
+
+Package: connman-vpn-doc
+Section: doc
+Architecture: any
+Depends:
+Description: ConnMan VPN daemon documentation
+ This unofficial package contains documentation of ConnMan VPN daemon APIs
+
