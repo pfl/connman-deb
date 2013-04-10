@@ -36,11 +36,17 @@ Description: ConnMan VPN daemon
  various VPN client applications. The VPN daemon can also be run standalone
  without connmand.
 
-Package: connman-tools
+Package: connman-client
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, connman (>=0.80)
 Description: ConnMan command line tools
- This unofficial package contains ConnMan command line tool and test scripts
+ This unofficial package contains ConnMan command line client
+
+Package: connman-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, connman (>=0.80), python
+Description: ConnMan command line tools
+ This unofficial package contains ConnMan tools and test scripts
 
 Package: connman-dev
 Section: devel
