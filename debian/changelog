@@ -1,3 +1,11 @@
+connman (1.13-0.1) UNRELEASED; urgency=low
+
+  * Save packaging time by not running tests
+  * Add package for command line client
+  * Version number updated to 1.13
+
+ -- Patrik Flykt <patrik.flykt@linux.intel.com>  Wed, 10 Apr 2013 14:02:00 +0900
+
 connman (1.12-0.1) UNRELEASED; urgency=low
 
   * Add missing vpn install file to properly create the vpn package
