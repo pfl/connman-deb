@@ -1,3 +1,9 @@
+connman (1.15-0.1) UNRELEASED; urgency=low
+
+  * Version number updated to 1.15
+
+ -- Patrik Flykt <patrik.flykt@linux.intel.com>  Fri, 31 May 2013 09:33:44 +0300
+
 connman (1.14-0.1) UNRELEASED; urgency=low
 
   * Version number updated to 1.14
