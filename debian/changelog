@@ -1,3 +1,10 @@
+connman (1.20-0.2) UNRELEASED; urgency=low
+
+  * Use relative path in vpn install file
+  * Add systemd service files to connman and connman-vpn packages
+
+ -- Patrik Flykt <patrik.flykt@linux.intel.com>  Tue, 10 Dec 2013 16:05:18 +0200
+
 connman (1.20-0.1) UNRELEASED; urgency=low
 
   * Version number updated to 1.20
