@@ -1,3 +1,9 @@
+connman (1.21-0.1) UNRELEASED; urgency=low
+
+  * Version number updated to 1.21
+
+ -- Patrik Flykt <patrik.flykt@linux.intel.com>  Mon, 20 Jan 2014 11:11:08 +0200
+
 connman (1.20-0.2) UNRELEASED; urgency=low
 
   * Use relative path in vpn install file
