@@ -1,3 +1,10 @@
+connman (1.22-0.1) UNRELEASED; urgency=low
+
+  * Add package for launching automatically via D-Bus
+  * Version number updated to 1.22
+
+ -- Patrik Flykt <patrik.flykt@linux.intel.com>  Mon, 10 Mar 2014 16:26:42 +0200
+
 connman (1.21-0.1) UNRELEASED; urgency=low
 
   * Version number updated to 1.21
