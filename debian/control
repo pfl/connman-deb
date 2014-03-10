@@ -25,6 +25,11 @@ Description: ConnMan daemon
  IPv6, link-local IPv4 address handling and tethering (IP connection sharing)
  to clients via USB, ethernet, WiFi, cellular and Bluetooth.
 
+Package: connman-dbus-autostart
+Architecture: all
+Depends: connman (=${Source-Version})
+Description: ConnMan daemon dbus autostart support file
+
 Package: connman-vpn
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
