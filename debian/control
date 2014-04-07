@@ -20,6 +20,7 @@ Description: ConnMan daemon
   * WiFi, when wpa_supplicant is installed
   * Cellular, when oFono is installed
   * Bluetooth, when Bluez is installed
+  * USB gadget/client devices
  .
  ConnMan implements DNS resolving and caching, DHCP clients for both IPv4 and
  IPv6, link-local IPv4 address handling and tethering (IP connection sharing)
