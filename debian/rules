@@ -9,7 +9,8 @@ override_dh_auto_configure:
 		--enable-debug \
 		--enable-openconnect=builtin \
 		--enable-openvpn=builtin \
-		--enable-vpnc=builtin
+		--enable-vpnc=builtin \
+		--with-systemdunitdir=/lib/systemd/system
 
 override_dh_installinit:
 	cp -a scripts/connman debian/connman.init
