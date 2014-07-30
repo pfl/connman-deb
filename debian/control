@@ -7,7 +7,7 @@ Build-Depends: debhelper(>=8), wpasupplicant(>=0.7), libglib2.0-dev(>=2.28),libd
 Package: connman
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Recommends: wpasupplicant, bluez, ofono, pacrunner
+Recommends: wpasupplicant, bluez, ofono, pacrunner, dundee, neard
 Conflicts: network-manager
 Description: ConnMan daemon
  This unofficial package contains the Connection Manager (ConnMan) daemon
