@@ -1,3 +1,12 @@
+connman (1.25-0.1) UNRELEASED; urgency=medium
+
+  * Improve systemd build time support
+  * Rename packages to -upstream as the files are split differently from
+    the Debian official ones
+  * Version number updated to 1.25
+
+ -- Patrik Flykt <patrik.flykt@linux.intel.com>  Tue, 19 Aug 2014 09:01:10 +0300
+
 connman (1.24-0.1) UNRELEASED; urgency=low
 
   * Version number updated to 1.24
