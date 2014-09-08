@@ -1,3 +1,9 @@
+connman (1.25-0.2) UNRELEASED; urgency=medium
+
+  * Fix vpn systemd service name in D-Bus config file
+
+ -- Patrik Flykt <patrik.flykt@linux.intel.com>  Mon, 08 Sep 2014 09:24:58 +0300
+
 connman (1.25-0.1) UNRELEASED; urgency=medium
 
   * Improve systemd build time support
