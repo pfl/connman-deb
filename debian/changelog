@@ -1,3 +1,9 @@
+connman (1.27-0.1) UNRELEASED; urgency=medium
+
+  * Version number updated to 1.27
+
+ -- Patrik Flykt <patrik.flykt@linux.intel.com>  Mon, 15 Dec 2014 09:21:13 +0200
+
 connman (1.26-0.2) UNRELEASED; urgency=medium
 
   * Update gnutls dev package dependency
