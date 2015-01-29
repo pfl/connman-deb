@@ -4,8 +4,8 @@
  #!/bin/sh
 +### BEGIN INIT INFO
 +# Provides:       connman
-+# Required-Start: $local_fs $syslog
-+# Required-Stop:  $local_fs $syslog
++# Required-Start: $local_fs $syslog dbus
++# Required-Stop:  $local_fs $syslog dbus
 +# Default-Start:  2 3 4 5
 +# Default-Stop:   0 1 6
 +# Short-Description: Connection Manager
