@@ -1,3 +1,10 @@
+connman (1.28-0.1) UNRELEASED; urgency=medium
+
+  * Version number updated to 1.28
+  * Init script depends also on dbus
+
+ -- Patrik Flykt <patrik.flykt@linux.intel.com>  Mon, 02 Feb 2015 08:43:39 +0200
+
 connman (1.27-0.1) UNRELEASED; urgency=medium
 
   * Version number updated to 1.27
