@@ -1,1 +1,2 @@
-client/connmanctl usr/bin/
+usr/bin/connmanctl
+usr/share/man/man1/connmanctl.1
