@@ -12,5 +12,5 @@
 +### END INIT INFO
 +
  
- DAEMON=@prefix@/sbin/connmand
+ DAEMON=@sbindir@/connmand
  DESC="Connection Manager"
