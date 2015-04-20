@@ -1,3 +1,10 @@
+connman (1.29-0.1) UNRELEASED; urgency=medium
+
+  * Version number updated to 1.29
+  * connmanctl and man page are now installed properly
+
+ -- Patrik Flykt <patrik.flykt@linux.intel.com>  Mon, 20 Apr 2015 10:40:35 +0300
+
 connman (1.28-0.1) UNRELEASED; urgency=medium
 
   * Version number updated to 1.28
