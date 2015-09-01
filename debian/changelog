@@ -1,3 +1,9 @@
+connman (1.30-0.1) UNRELEASED; urgency=medium
+
+  * Version number updated to 1.30
+
+ -- Patrik Flykt <patrik.flykt@linux.intel.com>  Tue, 01 Sep 2015 13:35:06 +0300
+
 connman (1.29-0.1) UNRELEASED; urgency=medium
 
   * Version number updated to 1.29
