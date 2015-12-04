@@ -15,10 +15,11 @@ override_dh_auto_configure:
 
 override_dh_installinit:
 	cp -a scripts/connman debian/connman-upstream.init
-	dh_installinit
 	cp -a src/connman.service debian/connman-upstream.service
+	cp -a src/connman-wait-online.service debian/connman-upstream-wait-online.service
 	cp -a vpn/connman-vpn.service debian/connman-upstream-vpn.service
 	dh_systemd_enable
+	dh_installinit
 	dh_systemd_start
 
 override_dh_auto_test:
