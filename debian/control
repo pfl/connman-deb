@@ -8,7 +8,6 @@ Package: connman-upstream
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Recommends: wpasupplicant, bluez, ofono|ofono-upstream, pacrunner, dundee-upstream, neard, connman-vpn|connman-upstream-vpn
-Provides: connman
 Replaces: network-manager, connman
 Conflicts: network-manager, connman
 Description: ConnMan daemon
@@ -38,17 +37,16 @@ Description: ConnMan systemd service for detecting connected networks
 Package: connman-upstream-dbus-autostart
 Architecture: all
 Depends: connman-upstream (=${Source-Version})
-Replaces: connman-dbus-autostart
-Conflicts: connman-dbus-autostart
+Replaces: connman-dbus-autostart, connman
+Conflicts: connman-dbus-autostart, connman
 Description: ConnMan daemon dbus autostart support file
 
 Package: connman-upstream-vpn
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, connman-upstream(>=1.10)
-Provides: connman-vpn
 Replaces: connman-vpn
-Conflicts: connman-vpn
-Recommends: connman (=${Source-Version})
+Conflicts: connman-vpn, connman
+Recommends: connman-upstream
 Description: ConnMan VPN daemon
  This unofficial package contains the ConnMan VPN daemon
  .
@@ -59,16 +57,16 @@ Description: ConnMan VPN daemon
 Package: connman-upstream-client
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, connman-upstream(>=0.80)
-Replaces: connman-client, connman(>=0.0)
-Conflicts: connman-client, connman(>=0.0)
+Replaces: connman-client, connman
+Conflicts: connman-client, connman
 Description: ConnMan command line tools
  This unofficial package contains ConnMan command line client
 
 Package: connman-upstream-tools
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, connman-upstream, python
-Replaces: connman-tools
-Conflicts: connman-tools
+Replaces: connman-tools, connman
+Conflicts: connman-tools, connman
 Description: ConnMan command line tools
  This unofficial package contains ConnMan tools and test scripts
 
