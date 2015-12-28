@@ -1,3 +1,13 @@
+connman (1.31-0.1) UNRELEASED; urgency=medium
+
+  * Version number updated to 1.31
+  * Add connman-upstream tmpfiles configuration file
+  * Add connman-upstream-wait-online package
+  * Clear up upstream package Replaces and Conflicts
+  * Do not enable ConnMan by default, only restart after an upgrade.
+
+ -- Patrik Flykt <patrik.flykt@linux.intel.com>  Mon, 28 Dec 2015 09:54:07 +0200
+
 connman (1.30-0.1) UNRELEASED; urgency=medium
 
   * Version number updated to 1.30
