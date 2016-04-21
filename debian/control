@@ -7,7 +7,7 @@ Build-Depends: debhelper(>=8), wpasupplicant(>=0.7), libglib2.0-dev(>=2.28),libd
 Package: connman-upstream
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Recommends: wpasupplicant, bluez, ofono|ofono-upstream, pacrunner, dundee-upstream, neard, connman-vpn|connman-upstream-vpn
+Recommends: wpasupplicant, bluez(>=5.2), ofono|ofono-upstream, pacrunner, dundee-upstream, neard, connman-vpn|connman-upstream-vpn
 Replaces: network-manager, connman
 Conflicts: network-manager, connman
 Description: ConnMan daemon
