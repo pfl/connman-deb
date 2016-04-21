@@ -1,3 +1,10 @@
+connman (1.32-0.1) UNRELEASED; urgency=medium
+
+  * Version number updated to 1.32
+  * Bluez 4.x is no longer supported, recommend >= 5.2
+
+ -- Patrik Flykt <patrik.flykt@linux.intel.com>  Thu, 21 Apr 2016 10:43:57 +0300
+
 connman (1.31-0.1) UNRELEASED; urgency=medium
 
   * Version number updated to 1.31
