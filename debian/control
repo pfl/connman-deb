@@ -36,7 +36,7 @@ Description: ConnMan systemd service for detecting connected networks
 
 Package: connman-upstream-dbus-autostart
 Architecture: all
-Depends: connman-upstream (=${Source-Version})
+Depends: connman-upstream
 Replaces: connman-dbus-autostart, connman
 Conflicts: connman-dbus-autostart, connman
 Description: ConnMan daemon dbus autostart support file
