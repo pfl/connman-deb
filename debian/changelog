@@ -1,3 +1,9 @@
+connman (1.36-0.1) UNRELEASED; urgency=medium
+
+  * Version number updated to 1.36
+
+ -- Patrik Flykt <pflykt@pflykt-mobl1.ger.corp.intel.com>  Wed, 09 May 2018 08:30:33 +0300
+
 connman (1.35-0.1) UNRELEASED; urgency=medium
 
   * Version number updated to 1.35
